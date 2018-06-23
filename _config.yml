@@ -95,11 +95,11 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: jinbooooom
-    repo: blog-comments
+    owner: 
+    repo: 
     oauth:
-        client_id: 5964b7224a4c9887036b
-        client_secret: 6302eab89a4f3a492364072bd999b209f014ce99
+        client_id: 
+        client_secret: 
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: jinbooooom
@@ -122,5 +122,4 @@ simple_jekyll_search:
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id:
-# UA-80669434-1
+    analytics_id: UA-80669434-1
