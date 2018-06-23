@@ -1,17 +1,11 @@
 ---
 layout: post
 title: 小岛经济学简摘
-date: 2018-05-27 
-tags: 经济学   
----
----
-layout: post
-title: 小岛经济学简摘
 categories: 经济
 description: 小岛经济学看书笔记
 keywords: 小岛经济学 经济学
 ---
-![小岛经济学](/images/posts/20180527_xiao_dao_jing_ji_xue/0.jpeg)
+![小岛经济学](favicon.ico)
 
 　　**1，** 工具提高了我们的劳动效率。我们生产的东西越多，可以消费的东西就越多，我们的生活就会变得更美好。经济增长的原因是找到了生产人类所需物品的更好方式。
 
