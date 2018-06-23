@@ -7,20 +7,20 @@ date_format: "ordinal"
 title: 闻故知新
 subtitle: "follow the heart"
 description: "随心的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
-timezone: Asia/Shanghai
+keywords: 随心, Jinbo, jinbooooom, 闻故知新
+timezone: China/Anhui
 encoding: "utf-8"
 side_bar_repo_limit: 5
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: zkh360.com
+author: Jinbooooom
+organization: 
 organization_url: http://www.zkh360.com
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: jinbooooom
+location: Huanggang, China
+email: jinboom@foxmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -81,7 +81,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: jinbooooom/jinbooooom.github.io
 
 # ---------------- #
 #      Comments    #
