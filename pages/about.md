@@ -1,18 +1,19 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: 分享生活趣事，记录笔记心得。
+keywords: Jinbo, 随心
 comments: true
 menu: 关于
 permalink: /about/
 ---
+## 很多有意义的事：想做，但是未做
 
-我是马壮，码而生，码而立。
+#####坚持晚上跑步
 
-仰慕「优雅编码的艺术」。
+#####坚持看杂书
 
-坚信熟能生巧，努力改变人生。
+#####坚持写文字
 
 ## 联系
 

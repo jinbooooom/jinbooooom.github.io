@@ -4,7 +4,7 @@
 baseurl:
 url: https://jinbooooom.github.io
 date_format: "ordinal"
-title: 闻故知新
+title: ##随心
 subtitle: "follow the heart"
 description: "随心的个人博客"
 keywords: 随心, Jinbo, jinbooooom, 闻故知新
@@ -34,9 +34,9 @@ navs:
     href: /categories/
     label: 分类
 
-#   -
-#     href: /archives/
-#     label: 归档
+   -
+     href: /archives/
+     label: 归档
 
   -
     href: /wiki/
