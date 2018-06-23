@@ -102,7 +102,7 @@ gitment:
         client_secret: 6302eab89a4f3a492364072bd999b209f014ce99
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: jinbooooom
     repo: blog-comments
     clientID: 5964b7224a4c9887036b
     clientSecret: 6302eab89a4f3a492364072bd999b209f014ce99
@@ -122,4 +122,5 @@ simple_jekyll_search:
 #    Analytics     #
 # ---------------- #
 google:
-    analytics_id: UA-80669434-1
+    analytics_id:
+# UA-80669434-1
