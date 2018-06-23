@@ -97,9 +97,9 @@ disqus:
 gitment:
     owner: jinbooooom
     repo: blog-comments
-    oauth: 5964b7224a4c9887036b
-        client_id: 6302eab89a4f3a492364072bd999b209f014ce99
-        client_secret: 
+    oauth: 
+        client_id: 5964b7224a4c9887036b
+        client_secret: 6302eab89a4f3a492364072bd999b209f014ce99
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: jinbooooom
