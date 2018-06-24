@@ -26,7 +26,7 @@ keywords: 写作, 随笔
 　　不写作的原因有很多，但写作的原因，可能就是想留下点有意义的东西吧。  
 
 
-<span style="color: red;">*转载注明出处，这样我就更能坚持写作了*<span>:  
+<span style="color: red;">*转载注明出处，这样我就更能坚持写作了*<span>  
 **[随心的个人博客](https://jinbooooom.github.io) » [我为什么不写作](https://jinbooooom.github.io/2018/05/27/wo_wei_shen_me_bu_xie_zuo/)**  
 
 
