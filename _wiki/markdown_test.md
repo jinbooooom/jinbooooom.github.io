@@ -1,6 +1,6 @@
 ---
 layout: post
-title: markdown测试
+title: markdown 语法
 categories: 测试
 description: 测试该博客支持的markdown语法。
 keywords: markdown
