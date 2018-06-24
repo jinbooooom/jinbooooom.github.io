@@ -3,10 +3,10 @@ layout: post
 title: 小岛经济学简摘
 categories: 经济
 description: 小岛经济学看书笔记
-keywords: 小岛经济学 经济学
+keywords: 小岛经济学, 经济学
 ---
 
-<div align="center"><img width="900px" height="500px" src="https://jinbooooom.github.io/images/posts/201806/0.jpeg"/></div>
+<div align="center"><img width="900px" height="450px" src="https://jinbooooom.github.io/images/posts/201806/0.jpeg"/></div>
 
 　　**1，** 工具提高了我们的劳动效率。我们生产的东西越多，可以消费的东西就越多，我们的生活就会变得更美好。经济增长的原因是找到了生产人类所需物品的更好方式。
 
