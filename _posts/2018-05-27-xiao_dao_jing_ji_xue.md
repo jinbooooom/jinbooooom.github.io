@@ -7,6 +7,8 @@ keywords: 小岛经济学 经济学
 ---
 ![小岛经济学](/images/posts/201806/0.jpeg)
 
+![test](/favicon_2.jpg)
+
 <div align="center"><img width="192px" height="192px" src="https://jinbooooom.github.io/images/posts/201806/0.jpeg"/></div>
 
 <div align="center"><img src="https://jinbooooom.github.io/images/posts/201806/0.jpeg"/></div>
