@@ -72,7 +72,7 @@ keywords: 认知, 经济学, 统计学, 心理学
 　　可是事实是我们中的所有人，早就选择杀了！每年死于交通事故的人数以万计，然而我们该坐车的还是坐车。从来没有人提议禁止一切汽车。更重要的是，我国每年有数以千计的矿工死于矿难。更不用说因为煤矿导致的各种病症的增多，而烧煤，却是拿着别人生命换来的电，心安理得。跟火力发电相比，核电虽然不是一个好的方式，但却是“最不坏”的方式。
 
 <span style="color: red;">*转载注明出处，这样我就更能坚持写作了*<span>  
-**[随心的个人博客](https://jinbooooom.github.io) >> [万万没想到简摘](https://jinbooooom.github.io/2018/06/24/wan_wan_mei_xiang_dao/)** 
+**[随心的个人博客](https://jinbooooom.github.io) >> [万万没想到简摘](https://jinbooooom.github.io/2018/06/24/wan_wan_mei_xiang_dao/)**   
 
 
 
