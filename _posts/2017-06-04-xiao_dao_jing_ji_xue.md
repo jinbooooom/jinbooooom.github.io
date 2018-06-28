@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 小岛经济学简摘
-categories: 经济
+categories: 经济学, 读书
 description: 小岛经济学看书笔记
 keywords: 小岛经济学, 经济学
 ---
