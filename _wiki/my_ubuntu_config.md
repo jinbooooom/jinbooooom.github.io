@@ -106,7 +106,8 @@ sudo apt-get install -f
 ```shell
 sudo dpkg -i teamviewer*.deb
 ```
-参考链接：
+参考链接：  
+   
 [ubuntu 下安装 cuDNN](https://blog.csdn.net/ngy321/article/details/79872207)  
 [华硕笔记本(GTX 1060显卡)安装Ubuntu16.04+Nvidia显卡驱动+Cuda8.0+cudnn6.0+ROS+Opencv3.2+Caffe+Tensorflow](https://blog.csdn.net/Sparta_117/article/details/73739980)  
 [Ubuntu16.04 安装Teamviewer](http://www.cnblogs.com/wmr95/p/7574615.html)  
@@ -116,7 +117,7 @@ sudo dpkg -i teamviewer*.deb
 
 
 <span style="color: red;">*转载注明出处，这样我就更能坚持写作了*<span>  
-**[随心的个人博客](https://jinbooooom.github.io) >> [人类简史简摘](https://jinbooooom.github.io/2018/12/15/my_ubuntu16_config/)**  
+**[随心的个人博客](https://jinbooooom.github.io) >> [ubuntu16.04 深度学习常用软件工具安装配置](https://jinbooooom.github.io/2018/12/15/my_ubuntu16_config/)**  
 
 
 
