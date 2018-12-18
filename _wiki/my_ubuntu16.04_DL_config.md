@@ -60,7 +60,9 @@ tar -xzvf cudnn-9.0-linux-*.tgz
 sudo gedit ~/.bashrc
 ```
 在最后一行添加：
+```gedit
 export LD_LIBRARY_PATH=/home/cuda/lib64:$LD_LIBRARY_PATH
+```
 紧接着：
 ```shell
 source ~/.bashrc
@@ -117,7 +119,7 @@ sudo dpkg -i teamviewer*.deb
 
 
 <span style="color: red;">*转载注明出处，这样我就更能坚持写作了*<span>  
-**[随心的个人博客](https://jinbooooom.github.io) >> [ubuntu16.04 深度学习常用软件工具安装配置](https://jinbooooom.github.io/2018/12/15/my_ubuntu16_config/)**  
+**[随心的个人博客](https://jinbooooom.github.io) >> [ubuntu16.04 深度学习常用软件工具安装配置](https://jinbooooom.github.io/wiki/my_ubuntu16.04_DL_config/)**  
 
 
 
