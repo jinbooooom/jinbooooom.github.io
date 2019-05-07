@@ -3,7 +3,7 @@ layout: post
 title: 人类简史之认知革命
 categories: 认知
 description: 《人类简史》看书笔记
-keywords: 认知 历史 人类简史
+keywords: 认知, 历史, 人类简史
 ---
 
 ## 认知革命  
@@ -45,7 +45,7 @@ keywords: 认知 历史 人类简史
 
 
 <span style="color: red;">*转载注明出处，这样我就更能坚持写作了*<span>  
-**[随心的个人博客](https://jinbooooom.github.io) >> [人类简史简摘](https://jinbooooom.github.io/2018/06/28/ren_lei_jian_shi/)**  
+**[随心的个人博客](https://jinbooooom.github.io) >> [人类简史之认知革命](https://jinbooooom.github.io/2018/06/28/ren_lei_jian_shi/)**  
 
 
 
