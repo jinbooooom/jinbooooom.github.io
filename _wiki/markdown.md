@@ -36,7 +36,10 @@ H5 :##### Header 5
 ##### Header 5 
 H6 :###### Header 6     
 ###### Header 6
-#### *链接* :\[链接显示的名称](https://jinbooooom.github.io)
+#### *链接* :
+```markdown
+[链接显示的名称](https://jinbooooom.github.io)
+```
 [链接显示的名称](https://jinbooooom.github.io)        
 #### *加粗* :\*\*Bold**
 **Bold**  
@@ -77,6 +80,37 @@ void embed()
 ```
 
 <font color=red size=3 face="黑体">遇到新用法的时候再记录</font>
+
+#### 表格
+```markdown
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+```
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+
+#### Emoji: :panda_face: :sparkles: :camel: :boom: :pig:
+
+[Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/)
+
+#### Task list
+```markdown
+- [ ] a bigger project
+  - [x] first subtask
+  - [x] follow up subtask
+  - [ ] final subtask
+- [ ] a separate task
+```
+
+- [ ] a bigger project
+  - [x] first subtask
+  - [x] follow up subtask
+  - [ ] final subtask
+- [ ] a separate task
 
 ### 链接：
 
