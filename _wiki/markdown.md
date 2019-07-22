@@ -119,6 +119,7 @@ void embed()
 
 一些好用的 Markdown 编辑器  
 [MaHua](http://mahua.jser.me/?utm_source=mindstore.io) 在线 Markdown 编辑器 ,无须测试。  
+[MdEditor](https://www.mdeditor.com/) 很符合我
 [Markdown Plus](http://mdp.tylingsoft.com/) 一款 Markdown 编辑器，可以支持添加任务列表、emoji、流程图等。
 
 ### 参考:

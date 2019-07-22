@@ -28,6 +28,8 @@ git remote add origin <repository link>
 
 git push -u origin master(git push origin master)    
 
+git reset HEAD~  撤销领先的最近一次提交  
+
 
 
 
