@@ -23,6 +23,7 @@ sudo apt-get install nvidia-410 nvidia-settings
 
 法二：
 打开 **设置>>软件和更新>>附加驱动** 选中驱动,**应用更改**
+如果失败，勾选 **设置>>软件和更新>>更新>>推荐更新** 
 
 ### CUDA
 
