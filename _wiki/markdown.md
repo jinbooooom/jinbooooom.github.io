@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Markdown笔记
 categories: 工具
@@ -15,27 +15,13 @@ keywords: markdown
 
 ### 一些基本语法  
 #### *标题*
-
-一级标题
-
-Header 1
-===
-二级标题  
-Header 2
----
-或者：  
-H1 :# Header 1   
+几级标题就在前面添加几个‘#’。  
+`H1：# Header 1`   
 # Header 1
-H2 :## Header 2    
-## Header 2
-H3 :### Header 3
+`H3 :### Header 3`
 ### Header 3
-H4 :#### Header 4  
-#### Header 4 
-H5 :##### Header 5     
+`H5 :##### Header 5`     
 ##### Header 5 
-H6 :###### Header 6     
-###### Header 6
 #### *链接* :
 ```markdown
 [链接显示的名称](https://jinbooooom.github.io)
@@ -50,11 +36,11 @@ H6 :###### Header 6
 #### 段落 : 段落之间空一行           
 #### 换行符 : 一行结束时输入两个空格           
 #### 无序列表 :添加\* - + 成为一个新的列表项。  
-
-\* 新列表1  
-\- 新列表2  
-\+ 新列表3  
-
+```
+* 新列表1  
+- 新列表2  
++ 新列表3  
+```
 * 新列表1
 - 新列表2
 + 新列表3
@@ -119,8 +105,8 @@ void embed()
 
 一些好用的 Markdown 编辑器  
 [MaHua](http://mahua.jser.me/?utm_source=mindstore.io) 在线 Markdown 编辑器 ,无须测试。  
-[MdEditor](https://www.mdeditor.com/) 很符合我  
-[Markdown Plus](http://mdp.tylingsoft.com/) 一款 Markdown 编辑器，可以支持添加任务列表、emoji、流程图等。
+[MdEditor](https://www.mdeditor.com/) 渲染很不错，但与github有些不同。   
+[Markdown Plus](http://mdp.tylingsoft.com/) 一款 Markdown 编辑器，可以支持添加任务列表、emoji、流程图等。推荐。
 
 ### 参考:
 
