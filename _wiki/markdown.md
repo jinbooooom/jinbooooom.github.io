@@ -1,5 +1,5 @@
 ﻿---
-layout: post
+layout: wiki
 title: Markdown笔记
 categories: 工具
 description: markdown常用格式整理。
