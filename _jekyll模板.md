@@ -1,0 +1,7 @@
+- [适合记录旅游与风景](http://jekyllthemes.org/themes/bef/)
+- [适合图文](http://jekyllthemes.org/themes/millennial/)
+- [sleek](https://janczizikow.github.io/sleek/) (https://github.com/4ir-cdt/4ir-cdt.github.io)
+- [图文](http://jekyllthemes.org/themes/bheema/)
+- [图文，如果点击图片可以跳转就完美了](http://jekyllthemes.org/themes/karna/)
+- [小卡片](https://github.com/jtemporal/jtemporal.github.io)
+- [next](https://simpleyyt.com/jekyll-theme-next/)
