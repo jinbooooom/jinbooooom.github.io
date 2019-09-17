@@ -1,2 +1,3 @@
-.idea/*
-card/*
+_site/
+.sass-cache/
+.jekyll-metadata

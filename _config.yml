@@ -1,127 +1,69 @@
-# ---------------- #
-#   Main Configs   #
-# ---------------- #
-baseurl:
-url: https://jinbooooom.github.io
-date_format: "ordinal"
-title: 随心
-subtitle: "follow the heart"
-description: "随心的个人博客"
-keywords: 随心, Jinbo, jinbooooom, 闻故知新
-timezone: China/Anhui
-encoding: "utf-8"
-side_bar_repo_limit: 5
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# ---------------- #
-#      Author      #
-# ---------------- #
-author: Jinbo
-organization: 
-organization_url: 
-github_username: jinbooooom
-location: Huanggang,China
+# Site settings
+title: Jinbo Fang
+email: jinboom@foxmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  那些将要去的地方，都是素未谋面的故乡
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jinbooooom.github.io/" # the base hostname & protocol for your site
+
+# reading time
+reading_time: true
+words_per_minute: 200
+
+#sidebar
+default-image: channel-cover.png # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+
+#footer
+
+built-by: Jinbo
+
+copyright:
+   name: Jinbo
+   link: 'https://jinbooooom.github.io/'
+
+# Build settings
+markdown: kramdown
+permalink: /:title/
+paginate: 21
+paginate_path: /page:num/
+
+# Tracker
+analytics: UA-89599031-1
+tagmanager: GTM-KKCR3VG
+
+# Comments
+disqus: yes
+disqus-shortname: Jinbo
+
+#social
+#facebook: http://facebook.com/jinbo
+#zhihu: https://www.zhihu.com/
+twitter:
+  username: Jinbo
+  card: summary_large_image
+github: https://github.com/jinbooooom
 email: jinboom@foxmail.com
 
-# ---------------- #
-#    Navigation    #
-# ---------------- #
-navs:
-  -
-    href: /
-    label: 首页
+#facebook like box
+#fb-like-box: yes
+#fb-app-id: 549480635219583
+#fb-page-url: https://www.zhihu.com/people/jinbooooom/activities
+#fb-page-title: Jinbo
 
-  -
-    href: /categories/
-    label: 分类
+# Sass style
+sass:
+  style: compressed
 
-#  -
-#     href: /archives/
-#     label: 归档
-
-  -
-    href: /wiki/
-    label: 维基
-
-  -
-    href: /links/
-    label: 链接
-
-  -
-    href: /about/
-    label: 关于
-
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
-
-# ---------------- #
-#      Jekyll      #
-# ---------------- #
-markdown: kramdown
-kramdown:
-    input: GFM
-highlighter: rouge
-paginate: 8
-lsi: false
-quiet: false
-excerpt_separator: "\n\n"
-permalink: /:year/:month/:day/:title/
-gems:
-    - jekyll-github-metadata
-    - rouge
-#     - jekyll-html-pipeline
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-feed
-    - jemoji
-#     - jekyll-mentions
-collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
-
-repository: jinbooooom/jinbooooom.github.io
-
-# ---------------- #
-#      Comments    #
-# ---------------- #
-# support provider: disqus, gitment, gitalk
-comments_provider: gitalk
-# !!!重要!!! 请修改下面这些信息为你自己申请的
-# !!!Important!!! Please modify infos below to yours
-# https://disqus.com
-disqus:
-    username: jinbooooom
-# https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: jinbooooom
-    repo: blog-comments
-    oauth: 
-        client_id: 5964b7224a4c9887036b
-        client_secret: 6302eab89a4f3a492364072bd999b209f014ce99
-# https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: jinbooooom
-    repo: blog-comments
-    clientID: 5964b7224a4c9887036b
-    clientSecret: 6302eab89a4f3a492364072bd999b209f014ce99
-# 在使用其它评论组件时可点击显示 Disqus
-lazy_load_disqus : false
-
-# ---------------- #
-#      Search      #
-# ---------------- #
-simple_jekyll_search:
-    # 是否支持全文搜索
-    fulltext: false
-    # 最多显示多少条搜索结果
-    limit: 10
-
-# ---------------- #
-#    Analytics     #
-# ---------------- #
-google:
-    analytics_id: UA-80669434-1
-
-theme: jekyll-theme-cayman
+# Include list
+# include: [.well-known, EnJtResume.pdf, folium]
+include: [.well-known, Resume.pdf, folium]
+# Ruby Gems
+plugins: [jekyll-paginate, jekyll-seo-tag]

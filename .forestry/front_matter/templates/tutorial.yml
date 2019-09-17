@@ -1,0 +1,42 @@
+---
+label: Tutorial
+hide_body: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: post
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: Título
+- type: text
+  name: description
+  label: Subtiulo
+  description: Max 70 char
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: '2019-02-21T03:00:00.000+00:00'
+- name: image
+  label: Img
+  type: file
+  hidden: false
+  default: "/images/tutorial.png"
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default:
+  - tutorial
+- name: comments
+  label: Comments
+  type: boolean
+  hidden: false
+  default: true
+pages:
+- _posts/2019-04-13-kmeans-and-elbow-method.md
+- _posts/2019-06-03-como-ser-cientista-de-dados-usando-um-computador-da-xuxa.md
