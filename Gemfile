@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "jekyll-paginate"
-gem "jekyll-seo-tag"
+source "https://rubygems.org"
+gemspec

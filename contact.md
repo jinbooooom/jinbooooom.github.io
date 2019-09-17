@@ -1,14 +1,16 @@
 ---
 layout: page
-title: 联系
-image: logo.png
+title: Contact
 permalink: /contact/
 ---
-联系方式
+
+For further general information on the 4IR CDT please contact [Dr Anna Scaife](mailto:anna.scaife@manchester.ac.uk).
 
 
-<!--
-Insert your contact details or a contact form here.
+Research field specific queries should be addressed to:
 
-Read [How to create a form in Jekyll site](https://github.com/jinbooooom/){: target="_blank"} to implement using formspree.
--->
+
+Astrophysics: [Dr Eamonn Kerins](mailto:eamonn.kerins@manchester.ac.uk)                                                   
+Particle Physics: [Dr Darren Price](mailto:darren.price@manchester.ac.uk)                                               
+Nuclear Physics: [Dr Kieran Flanaga](mailto:kieran.flanaga@manchester.ac.uk)                                              
+Computer Science: [Dr Gavin Brown](mailto:gavin.brown@manchester.ac.uk)

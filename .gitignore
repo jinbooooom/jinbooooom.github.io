@@ -2,4 +2,5 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
-MaZhi_theme_ignore
+MaZhi_theme
+JE_theme

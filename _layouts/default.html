@@ -1,28 +1,47 @@
 ---
 layout: compress
---- 
-
-<!DOCTYPE html>
-<html>
+---
+<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
   {% include head.html %}
 
-  <body>
+  <body class="site">
+
+    {% if site.google_tag_manager %}
+
+      <!-- Google Tag Manager (noscript) -->
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+
+    {% endif %}
 
     {% include header.html %}
 
-    <div class="container">
-      <div class="wrapper">
-        {{ content }}
+    <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/home-bg.jpg">
+      <div class="hero__wrap">
+        <h1 class="hero__title">4IR CDT</h1>
+        <p class="hero__meta">An STFC Centre for Doctoral Training in Data Intensive Science developing future leaders in the data intensive methodologies underpinning both modern science and the fourth industrial revolution.</p>
       </div>
     </div>
 
-    {% include footer.html %}
-    
+    <main class="site__content">
+      <section class="blog">
+        <div class="container">
+          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="{{site.baseurl}}{{site.url}}/js/bootstrap.min.js"></script>
- {% if site.analytics %}{% include analytics.html %}{% endif %}
+            {% for post in site.posts %}
+              {% include card.html %}
+            {% endfor %}
+
+            <!-- {% include pagination.html %} -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    {% include footer.html %}
+
   </body>
 
 </html>
