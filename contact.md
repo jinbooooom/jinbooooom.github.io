@@ -4,13 +4,12 @@ title: Contact
 permalink: /contact/
 ---
 
-For further general information on the 4IR CDT please contact [Dr Anna Scaife](mailto:anna.scaife@manchester.ac.uk).
+联系
 
+### Example Formspree contact form with validation and reCaptcha
 
-Research field specific queries should be addressed to:
+Fill in the form or [email me](mailto:{{site.email}}) to discuss your next project.
 
+{% include form.html %}
 
-Astrophysics: [Dr Eamonn Kerins](mailto:eamonn.kerins@manchester.ac.uk)                                                   
-Particle Physics: [Dr Darren Price](mailto:darren.price@manchester.ac.uk)                                               
-Nuclear Physics: [Dr Kieran Flanaga](mailto:kieran.flanaga@manchester.ac.uk)                                              
-Computer Science: [Dr Gavin Brown](mailto:gavin.brown@manchester.ac.uk)
+{% include modal.html %}
