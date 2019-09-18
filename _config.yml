@@ -1,49 +1,56 @@
-title: Jinbo # your site title
-author: Jinbo
-email:  jinboom@foxmail.com # email for form submission, you also have to change it in _js/scripts.js
+logo: # add logo name
+title: Bef - Enjoy Freedom
 description: > # this means to ignore newlines until "baseurl:"
-  Python/C/C++ developer
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://jinbooooom.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:  # replace with your_twitter_username or comment to remove link from footer
-github_username:  jinbooooom # replace with your_github_username or comment to remove link from footer
-instagram_username: # replace with your_instagram_username or comment to remove link from footer
-social:
-  name: 
-  links:
-    #- https://twitter.com/BenBalter
-    #- https://www.facebook.com/ben.balter
-    #- https://www.linkedin.com/in/BenBalter
-    #- https://plus.google.com/+BenBalter
-    #- https://github.com/jinbooooom
-    #- https://keybase.io/benbalter
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "/bef" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-disqus:
-  shortname:  # to enable comments replace with your_disqus_shortname
+# Banner settings
+video: mountains.mp4 # add banner video. Add your video file to the folder video
+banner-title: # add banner title
+banner-desc: # add banner description
+
+# Author settings
+author-pic: face.jpg # your photo
+author-name: # your name
+about-author: # about author
+email: your-email@domain.com # your email
+phone: (496)-169-6557 # your pnone number
+website: https://dwayne.example.com # you website
+
+# Social link
+google_url:    # add url link
+twitter_url:   # add url link
+instagram_url: # add url link
+pinterest_url: # add url link
+dribbble_url:  # add url link
+facebook_url:  # add url link
+
+# Disqus
+discus_identifier: mr-brown # add your discus identifier.  Not your username.  To get this, register your forum here with a unique ID: https://disqus.com/admin/create/
+
+# Newsletter
+mailchimp: # add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Tracker
+analytics:
+
+# Paginate
+paginate: 12
+paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
-highlighter: rouge # or pygments or null
-#theme: jekyll-sleek
-exclude:
-  - README.md
-  - node_modules
-  - script
-  - package.json
-  - package-lock.json
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - npm-debug.log
-  - gulpfile.js
-  - sleek.jpg
-
-include: ['_pages']
-permalink: /:title/
-
-compress_html:
-  clippings: all
-
-plugins:
+plugins_dir:
+  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-seo-tag
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+include: [_pages]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
