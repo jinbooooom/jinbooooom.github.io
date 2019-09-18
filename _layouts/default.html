@@ -1,7 +1,6 @@
 ---
 layout: compress
 ---
-<!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
 
   {% include head.html %}
@@ -19,10 +18,10 @@ layout: compress
 
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
+    <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/home-bg.jpg">
       <div class="hero__wrap">
-        <h1 class="hero__title">{{ site.title | escape }}</h1>
-        <p class="hero__meta">{{ site.tagline }}</p>
+        <h1 class="hero__title">4IR CDT</h1>
+        <p class="hero__meta">An STFC Centre for Doctoral Training in Data Intensive Science developing future leaders in the data intensive methodologies underpinning both modern science and the fourth industrial revolution.</p>
       </div>
     </div>
 

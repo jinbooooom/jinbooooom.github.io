@@ -28,19 +28,20 @@ $( window ).resize( function() {
 
 function toggleMobileNav() {
     $( ".header__toggle" ).click( function() {
-      if ( !$( ".header__links" ).is( ".velocity-animating" ) ) {
+
         if ( $( ".header__links" ).hasClass( "js--open" ) ) {
             hideMobileNav();
         } else {
             openMobileNav();
         }
-      }
     } );
 
     $( "body" ).on( "click", function( e ) {
 
       if ( e.target.classList.contains( "header__overlay" ) ) {
         hideMobileNav();
+      } else {
+        return;
       }
     } );
 }
@@ -246,53 +247,50 @@ function addErrorData( element, error ) {
 
 
 /*-------------------------------------------------------------------------*/
-/* AJAX FORM SUBMIT
-/* Formspree now only supports AJAX for Gold Users
-/* https://github.com/formspree/formspree/pull/173
-/* Uncomment if you want to use AJAX Form submission and you're a gold user
+/* AJAX FORM SUBMIT */
 /* -----------------------------------------------------------------------*/
 
-// $( "#contactForm" ).submit( function( e ) {
+$( "#contactForm" ).submit( function( e ) {
 
-//     e.preventDefault();
+    e.preventDefault();
 
-//     var $btn = $( ".js-submit" ),
-//         $inputs = $( ".form__input input" ),
-//         $textarea = $( ".form__input textarea" ),
-//         $name = $( "input#name" ).val(),
-//         $url = $( "#contactForm" ).attr( "action" );
+    var $btn = $( ".js-submit" ),
+        $inputs = $( ".form__input input" ),
+        $textarea = $( ".form__input textarea" ),
+        $name = $( "input#name" ).val();
 
-//     $.ajax( {
+    $.ajax( {
 
-//         url: $url,
-//         method: "POST",
-//         data: $( this ).serialize(),
-//         dataType: "json",
+        // Change the email address here:
+        url: "https://formspree.io/your-email@domain.com",
+        method: "POST",
+        data: $( this ).serialize(),
+        dataType: "json",
 
-//         beforeSend: function() {
-//             $btn.prop( "disabled", true );
-//             $btn.text( "Sending..." );
-//         },
-//         // eslint-disable-next-line no-unused-vars
-//         success: function( data ) {
-//             $inputs.val( "" );
-//             $textarea.val( "" );
-//             $btn.prop( "disabled", false );
-//             $btn.text( "Send" );
-//             openModal();
-//             $( ".modal__body" ).append(
-//               "<h1>Thanks " +
-//               $name +
-//               "!</h1><p>Your message was successfully sent! Will get back to you soon.</p>"
-//             );
+        beforeSend: function() {
+            $btn.prop( "disabled", true );
+            $btn.text( "Sending..." );
+        },
+        // eslint-disable-next-line no-unused-vars
+        success: function( data ) {
+            $inputs.val( "" );
+            $textarea.val( "" );
+            $btn.prop( "disabled", false );
+            $btn.text( "Send" );
+            openModal();
+            $( ".modal__body" ).append(
+              "<h1>Thanks " +
+              $name +
+              "!</h1><p>Your message was successfully sent! Will get back to you soon.</p>"
+            );
 
-//         },
-//         error: function( err ) {
-//             $( ".modal, .modal__overlay" ).addClass( "--show" );
-//             $( ".modal__body" ).append(
-//               "<h1>Aww snap!</h1><p>Something went wrong, please try again. Error message: </p>" +
-//               err
-//             );
-//         }
-//     } );
-// } );
+        },
+        error: function( err ) {
+            $( ".modal, .modal__overlay" ).addClass( "--show" );
+            $( ".modal__body" ).append(
+              "<h1>Aww snap!</h1><p>Something went wrong, please try again. Error message: </p>" +
+              err
+            );
+        }
+    } );
+} );

@@ -4,10 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
+The mission of the **4IR STFC Centre for Doctoral Training in Data Intensive Science** is to develop future leaders in the data intensive methodologies underpinning both modern science and the fourth industrial revolution.
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
+The 4IR Data Intensive Science CDT is a collaboration between the [Universities of Manchester](http://www.manchester.ac.uk/), [Lancaster](http://www.lancaster.ac.uk/)  and [Sheffield](https://www.sheffield.ac.uk/), and includes both the School of Physics & Astronomy and the School of Computer Science at the University of Manchester. We also work with a range of industrial, commercial and third party organisations to broaden the impact of research in the CDT and maximise the opportunities for our students.
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+An explosion of data-driven technology, as well as the huge steps forward in digital engineering, over the past couple of decades have already started to transform not only the way we do science, but also the way we live our every day lives. Research projects undertaken as part of the 4IR CDT will focus on data intensive aspects of cutting edge research across Astrophysics, Particle Physics and Nuclear Physics. These projects will also include placements with partner organisations in the commercial, industrial or private sectors in order to look at the wider applications of data driven research outside a University setting.
