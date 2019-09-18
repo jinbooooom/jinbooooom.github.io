@@ -1,8 +1,3 @@
-_site/
-.sass-cache/
-.jekyll-metadata
-
-MaZhi_theme
-JE_theme
-my_themes
-.idea
+.idea/*
+card/*
+my_themes/*
