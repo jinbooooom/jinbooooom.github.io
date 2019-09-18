@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Life
+permalink: /life/
 ---
 
 The mission of the **4IR STFC Centre for Doctoral Training in Data Intensive Science** is to develop future leaders in the data intensive methodologies underpinning both modern science and the fourth industrial revolution.
