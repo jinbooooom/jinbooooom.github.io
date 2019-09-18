@@ -1,48 +1,13 @@
 ---
 layout: page
-title: 很多有意义的事：想做，但是未做 
+title: About
+permalink: /about/
 ---
 
+Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
 
-<p>
+You can find the source code for the Jekyll new theme at:
+[sleek](https://github.com/janczizikow/sleek)
 
-坚持晚上跑步
-
-<p>
-
-坚持看杂书
-
-<p>
-
-坚持写文字
-
-<p>
-
-
-<p>
-
-
-<p>
-
-
-<p>
-
-
-<h4> 关于博客模板 </h4>  
-
-
-<p>
-
-如果你想搭建一个跟我一样的博客，可以 git clone 原作者的 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>github</a>
-
-<p>
-
-或者进入他的博客主页 <a target="_blank" href='https://baixin.io/'>潘柏信</a> 学习相关搭建教程。
-
-<p>
-
- 
-
-
-{% include comments.html %}
-
+You can find the source code for Jekyll at
+[jekyll](https://github.com/jekyll/jekyll)
