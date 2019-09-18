@@ -1,69 +1,49 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Jinbo Fang
-email: jinboom@foxmail.com
+title: Jinbo # your site title
+author: Jinbo
+email:  # email for form submission, you also have to change it in _js/scripts.js
 description: > # this means to ignore newlines until "baseurl:"
-  那些将要去的地方，都是素未谋面的故乡
+  Python/C++ 开发工程师
+baseurl: "Jinbo" # the subpath of your site, e.g. /blog
+url: "https://jinbooooom.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username:  # replace with your_twitter_username or comment to remove link from footer
+github_username:  jinbooooom # replace with your_github_username or comment to remove link from footer
+instagram_username: # replace with your_instagram_username or comment to remove link from footer
+social:
+  name: 
+  links:
+    #- https://twitter.com/BenBalter
+    #- https://www.facebook.com/ben.balter
+    #- https://www.linkedin.com/in/BenBalter
+    #- https://plus.google.com/+BenBalter
+    #- https://github.com/jinbooooom
+    #- https://keybase.io/benbalter
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jinbooooom.github.io/" # the base hostname & protocol for your site
-
-# reading time
-reading_time: true
-words_per_minute: 200
-
-#sidebar
-default-image: channel-cover.png # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
-
-#footer
-
-built-by: Jinbo
-
-copyright:
-   name: Jinbo
-   link: 'https://jinbooooom.github.io/'
+disqus:
+  shortname:  # to enable comments replace with your_disqus_shortname
 
 # Build settings
 markdown: kramdown
+highlighter: rouge # or pygments or null
+#theme: jekyll-sleek
+exclude:
+  - README.md
+  - node_modules
+  - script
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - npm-debug.log
+  - gulpfile.js
+  - sleek.jpg
+
+include: ['_pages']
 permalink: /:title/
-paginate: 21
-paginate_path: /page:num/
 
-# Tracker
-analytics: UA-89599031-1
-tagmanager: GTM-KKCR3VG
+compress_html:
+  clippings: all
 
-# Comments
-disqus: yes
-disqus-shortname: Jinbo
-
-#social
-#facebook: http://facebook.com/jinbo
-#zhihu: https://www.zhihu.com/
-twitter:
-  username: Jinbo
-  card: summary_large_image
-github: https://github.com/jinbooooom
-email: jinboom@foxmail.com
-
-#facebook like box
-#fb-like-box: yes
-#fb-app-id: 549480635219583
-#fb-page-url: https://www.zhihu.com/people/jinbooooom/activities
-#fb-page-title: Jinbo
-
-# Sass style
-sass:
-  style: compressed
-
-# Include list
-# include: [.well-known, EnJtResume.pdf, folium]
-include: [.well-known, Resume.pdf, folium]
-# Ruby Gems
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
