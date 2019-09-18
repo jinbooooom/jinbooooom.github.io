@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Contato
+title: 联系
 image: logo.png
 permalink: /contact/
 ---
+联系方式
 
-Você pode falar comigo [pelo Telegram aqui](https://t.me/jtemporal) ou se preferir [me mandar um e-mail aqui](mailto:jessicatemporal+contatodosite@gmail.com).
 
 <!--
 Insert your contact details or a contact form here.
 
-Read [How to create a form in Jekyll site](http://blog.webjeda.com/jekyll-contact-form/){: target="_blank"} to implement using formspree.
+Read [How to create a form in Jekyll site](https://github.com/jinbooooom/){: target="_blank"} to implement using formspree.
 -->

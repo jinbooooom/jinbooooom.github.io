@@ -6,14 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jessica Temporal
-email: jessicatemporal@gmail.com
+title: Jinbo Fang
+email: jinboom@foxmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Data Scientist, Podcaster @ Pizza de Dados, Lecturer and Developer. my pronouns are she/her/hers.
-  This is my personal blog, my opinions are my own.
+  那些将要去的地方，都是素未谋面的故乡
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jtemporal.com" # the base hostname & protocol for your site
+url: "https://jinbooooom.github.io/" # the base hostname & protocol for your site
 
 # reading time
 reading_time: true
@@ -24,11 +23,11 @@ default-image: channel-cover.png # If there is no featured image in a post then 
 
 #footer
 
-built-by: jtemporal
+built-by: Jinbo
 
 copyright:
-   name: jtemporal
-   link: 'https://jtemporal.com'
+   name: Jinbo
+   link: 'https://jinbooooom.github.io/'
 
 # Build settings
 markdown: kramdown
@@ -42,29 +41,29 @@ tagmanager: GTM-KKCR3VG
 
 # Comments
 disqus: yes
-disqus-shortname: jtemporal
+disqus-shortname: Jinbo
 
 #social
-#facebook: http://facebook.com/webjeda
-#quora: http://quora.com/sharathdt
+#facebook: http://facebook.com/jinbo
+#zhihu: https://www.zhihu.com/
 twitter:
-  username: jesstemporal
+  username: Jinbo
   card: summary_large_image
-github: http://github.com/jtemporal
-email: jessicatemporal@gmail.com
+github: https://github.com/jinbooooom
+email: jinboom@foxmail.com
 
 #facebook like box
 #fb-like-box: yes
 #fb-app-id: 549480635219583
-#fb-page-url: https://www.facebook.com/webjeda/
-#fb-page-title: webjeda
+#fb-page-url: https://www.zhihu.com/people/jinbooooom/activities
+#fb-page-title: Jinbo
 
 # Sass style
 sass:
   style: compressed
 
 # Include list
-include: [.well-known, EnJtResume.pdf, folium]
-
+# include: [.well-known, EnJtResume.pdf, folium]
+include: [.well-known, Resume.pdf, folium]
 # Ruby Gems
 plugins: [jekyll-paginate, jekyll-seo-tag]

@@ -1,3 +1,5 @@
-.idea/*
-card/*
-my_themes/*
+_site/
+.sass-cache/
+.jekyll-metadata
+
+MaZhi_theme_ignore
