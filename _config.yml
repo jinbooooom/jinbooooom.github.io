@@ -1,49 +1,61 @@
-title: Jinbo # your site title
-author: Jinbo
-email:  jinboom@foxmail.com # email for form submission, you also have to change it in _js/scripts.js
-description: > # this means to ignore newlines until "baseurl:"
-  Python/C/C++ developer
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://jinbooooom.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:  # replace with your_twitter_username or comment to remove link from footer
-github_username:  jinbooooom # replace with your_github_username or comment to remove link from footer
-instagram_username: # replace with your_instagram_username or comment to remove link from footer
-social:
-  name: 
-  links:
-    #- https://twitter.com/BenBalter
-    #- https://www.facebook.com/ben.balter
-    #- https://www.linkedin.com/in/BenBalter
-    #- https://plus.google.com/+BenBalter
-    #- https://github.com/jinbooooom
-    #- https://keybase.io/benbalter
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-disqus:
-  shortname:  # to enable comments replace with your_disqus_shortname
+# Site settings
+title: Webjeda cards
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
+  
+  
+baseurl: "/cards" # the subpath of your site, e.g. /blog
+url: "http://webjeda.com" # the base hostname & protocol for your site
+
+#sidebar
+default-image: webjeda-logo-big.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+
+#footer
+
+built-by: webjeda
+
+copyright:
+   name: webjeda
+   link: 'http://blog.webjeda.com'
 
 # Build settings
 markdown: kramdown
-highlighter: rouge # or pygments or null
-#theme: jekyll-sleek
-exclude:
-  - README.md
-  - node_modules
-  - script
-  - package.json
-  - package-lock.json
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - npm-debug.log
-  - gulpfile.js
-  - sleek.jpg
-
-include: ['_pages']
 permalink: /:title/
+paginate: 6
+paginate_path: /page:num/
 
-compress_html:
-  clippings: all
+# Tracker
+analytics: UA-83979019-1
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+# Comments
+disqus: yes
+disqus-shortname: webjeda-demo
+
+#social
+facebook: http://facebook.com/webjeda
+quora: http://quora.com/sharathdt
+twitter: http://twitter.com/@webjeda
+github: http://github.com/webjeda
+email: hello@webjeda.com
+
+#facebook like box
+fb-like-box: yes
+fb-app-id: 549480635219583
+fb-page-url: https://www.facebook.com/webjeda/
+fb-page-title: webjeda
+
+# Sass style
+sass:
+  style: compressed
+
+# Ruby Gems
+plugins: [jekyll-paginate, jekyll-seo-tag]
+

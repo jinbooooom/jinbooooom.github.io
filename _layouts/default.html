@@ -1,47 +1,28 @@
 ---
 layout: compress
----
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
+--- 
+
+<!DOCTYPE html>
+<html>
 
   {% include head.html %}
 
-  <body class="site">
-
-    {% if site.google_tag_manager %}
-
-      <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google_tag_manager }}"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-      <!-- End Google Tag Manager (noscript) -->
-
-    {% endif %}
+  <body>
 
     {% include header.html %}
 
-    <div class="hero lazyload" data-bg="{{site.url}}/assets/img/posts/home-bg.jpg">
-      <div class="hero__wrap">
-        <h1 class="hero__title">Jinbo Fang</h1>
-        <p class="hero__meta">Python/C/C++ developer.</p>
+    <div class="container">
+      <div class="wrapper">
+        {{ content }}
       </div>
     </div>
 
-    <main class="site__content">
-      <section class="blog">
-        <div class="container">
-          <div class="post-list" itemscope="" itemtype="http://schema.org/Blog">
-
-            {% for post in site.posts %}
-              {% include card.html %}
-            {% endfor %}
-
-            <!-- {% include pagination.html %} -->
-          </div>
-        </div>
-      </section>
-    </main>
-
     {% include footer.html %}
+    
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="{{site.baseurl}}/js/bootstrap.min.js"></script>
+ {% if site.analytics %}{% include analytics.html %}{% endif %}
   </body>
 
 </html>

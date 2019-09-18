@@ -1,24 +1,33 @@
-<header class="header" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
-  <div class="container">
-    <div class="header__inner">
-      <a class="header__logo" href="{{ '/' | relative_url }}">
-        <div class="header__logo--container">
-          {% include logo.svg %}
-        </div>
-      </a>
-      <nav class="header__links">
-        <div class="container header__links-wrapper">
-          <a class="header__link" href="{{ '/' | relative_url }}" itemprop="url"><span itemprop="name">Home</span></a>
-          <a class="header__link" href="{{ '/about' | relative_url }}" itemprop="url"><span itemprop="name">About</span></a>
-          <a class="header__link" href="{{ '/resume' | relative_url }}" itemprop="url"><span itemprop="name">Resume</span></a>
-          <a class="header__link" href="{{ '/contact' | relative_url }}" itemprop="url"><span itemprop="name">Contact</span></a>
-        </div>
-      </nav>
-      <div class="header__toggle">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+<header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="{{site.baseurl}}/">{{site.title}}</a>
     </div>
-  </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+        <li><a href="{{site.baseurl}}/about/">About</a></li>
+        <li><a href="{{site.baseurl}}/contact/">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a target="_blank" href="https://github.com/sharu725/cards">Project</a></li>
+            <li><a href="https://github.com/sharu725/cards/archive/master.zip">Download</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a target="_blank" href="https://jekyll-themes.com">More Themes</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 </header>
