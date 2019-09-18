@@ -1,0 +1,38 @@
+---
+label: protip
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: post
+  hidden: true
+- type: text
+  name: title
+  label: Título
+  config:
+    required: true
+- type: text
+  name: description
+  label: Subtítulo
+  description: max 70 char
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+  default: "/images/pro_tip.png"
+- type: list
+  name: tags
+  label: tags
+- type: boolean
+  name: comments
+  label: comments
+  default: true
+pages:
+- _posts/2019-03-16-playing-with-dockers-container-listing.md
+- _posts/2017-12-30-python-virtual-environments-venv.md
+- _posts/2019-04-03-copying-files-into-a-container.md
