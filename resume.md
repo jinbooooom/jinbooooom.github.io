@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-permalink: /members/
+permalink: /Resume/
 ---
 
 My Resume
