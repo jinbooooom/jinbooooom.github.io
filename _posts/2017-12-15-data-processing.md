@@ -1,8 +1,7 @@
----
+﻿---
 layout: post
-title: AI 计算机视觉
-featured-img: ai
-
+title: 深度学习模型训练数据处理工具
+featured-img: mirror
 ---
 
 

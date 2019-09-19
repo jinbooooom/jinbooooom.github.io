@@ -3,6 +3,9 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
+可以通过如下方式联系我：
 
-contact me, test.
+E-mail:  [E-mail](jinboom@foxmail.com)  
+
+WeChat:  jrppol
 
