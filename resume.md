@@ -9,7 +9,7 @@ My Resume
 - 123
 - 456
 - 789
-[baidu](www.baidu.com)
+[baidu](https://www.baidu.com)
 # Manchester
 ## Person 1
 ![Member Image](https://jinbooooom.github.io/assets/img/icons/android-chrome-256x256.png?v=qA3OXqyw77 "Member 1")
