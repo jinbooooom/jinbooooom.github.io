@@ -4,19 +4,58 @@ title: Resume
 permalink: /resume/
 ---
 
-My Resume
-### head3
-- 123
-- 456
-- 789
-[baidu](https://www.baidu.com)
-# Manchester
-## Person 1
-![Member Image](https://jinbooooom.github.io/assets/img/icons/android-chrome-256x256.png?v=qA3OXqyw77 "Member 1")
-**Bio:**
-blah blah blah
-## Person 1
-![Member Image](https://jinbooooom.github.io/assets/img/posts/sources/favicon.ico?v=qA3OXqyw77 "Member 1")
-**Bio:**
-blah blah blah
+---
+# 个人信息
+ - 方金波/男/1995 
+ - **教育经历**
+	 - 硕士/安徽大学电子信息工程学院 （2017/9/1~2020/6/30）
+	 - 本科/湖北师范大学物理与电子科学学院（2013/9/1~2017/6/30）
+ - **联系方式**
+	- 手机：17356581635
+	- Email：jinboom@foxmail.com
+	- 微信：jrppol
+ - **程序员社交**
+	- 个人网站：[https://jinbooooom.github.io](https://jinbooooom.github.io/)
+	- Github：[jinbooooom](https://github.com/jinbooooom)
+ - **期望职位**：Python/C/C++开发工程师
 
+---
+## 校园项目经历 
+### LED 数字仪表识别（ 2018年5月 ~ 2018年8月 ）
+##### 项目描述
+在远处采集某电厂电子仪表的图像，通过深度学习目标检测算法 (SSD，YOLOv3) 检测仪表的示数。
+##### 负责人
+主要负责数据清理，模型的训练，以及，针对客户的数据集，改善检测部分，使其对小目标的检测更好。
+##### 项目结果
+经过针对性的改进，在客户数据集下（图片尺寸很大，目标相对尺寸很小），正确率100%。
+
+
+### 坐姿识别 （ 2018年3月 ~ 2018年5月 ）
+##### 项目描述
+使用台灯上的摄像头，实时监测小孩写作业时的坐姿，用目标检测算法 Tiny YOLOv2 检测其坐姿（包含三种状态: 正常、倾斜、趴着）。如果在同一秒内，有多帧图像检测的坐姿不正常，则提醒矫正坐姿。
+##### 参与人
+负责数据清理，模型训练，参与移植模型到安卓端。
+##### 项目结果
+准确度76%，将训练的模型移植到安卓端，基本满足实时。
+
+---
+# 技能
+- 编程语言：Python/C/C++
+- 数据科学：NumPy, pandas, Matplotlib, scikit-learn
+- 图像处理：OpenCV
+- 深度学习：Pytorch
+- 版本管理：Git
+- 文档等：markdown, Office, HTML
+
+---
+# 个人评价
+Python/C/C++ 开发者  
+
+热衷于编程，追逐前沿技术  
+
+有图像处理，数据分析，AI 深度学习的经历
+
+---
+
+# 致谢
+感谢您花时间阅读我的简历，期待能有机会和您共事。
