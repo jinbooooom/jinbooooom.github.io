@@ -1,8 +1,8 @@
----
+﻿---
 layout: post
 title: 数据处理工具
 summary: 深度学习模型训练前的一些数据处理需要用到的工具
-featured-img: mirror
+featured-img: tools
 ---
 
 深度学习模型训练前的一些数据处理需要用到的工具。
