@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: 数据处理工具
 summary: 深度学习模型训练前的一些数据处理需要用到的工具
@@ -9,6 +9,7 @@ featured-img: tools
 
 开源工具：[数据处理]()(https://github.com/jinbooooom/data-processing)
 这里面大部分程序用于数据增广
+
 - ### 镜像变换
 augmented_data/mirror.py   
 ![mirror](https://jinbooooom.github.io/sources/cat.jpg)
