@@ -1,9 +1,10 @@
+---
 layout: post
 title: C++笔记
 summary: 开源笔记：C++复习重要笔记整理
-featured-img: C-plus-plus
+featured-img: cpp
 
-------
+---
 
 开源笔记：[C++笔记](https://github.com/jinbooooom/C-plus-plus)  
 

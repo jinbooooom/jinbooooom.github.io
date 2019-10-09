@@ -1,9 +1,10 @@
+---
 layout: post
 title: 磁石裂缝检测
 summary: 磁石外观检测中裂缝检测的一个demo
 featured-img: crack
 
-------
+---
 
 ### 系统简介
 
